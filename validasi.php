@@ -30,7 +30,7 @@
 
 	<div class="container">
 		<div class="row">
-			<a href="validasi-buka.html">
+			<a href="validasi-buka.php">
 				<div class="col s12 m4">
 					<div class="card">
 						<div class="card-image">

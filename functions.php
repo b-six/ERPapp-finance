@@ -29,4 +29,36 @@ function tambah($data){
 
 
 }
+
+
+
+function ubah($data){
+	global $db;
+	$id =($data["id"]);
+	$tanggal = htmlspecialchars($data["tanggal"]);
+	$debit = htmlspecialchars($data["debit"]);
+	$kredit = htmlspecialchars($data["kredit"]);
+	$nominal = htmlspecialchars($data["nominal"]);
+	$keterangan = htmlspecialchars($data["keterangan"]);
+
+	$query = "UPDATE transaksi SET
+				tanggal='$tanggal',
+				debit='$debit',
+				kredit='$kredit',
+				nominal='$nominal',
+				keterangan='$keterangan'
+				WHERE id = $id
+				";
+	mysqli_query($db, $query);
+	return mysqli_affected_rows($db);
+}
+
+function hapus($id){
+
+	global $db;
+	mysqli_query($db, "DELETE FROM transaksi WHERE id = $id");
+
+	return mysqli_affected_rows($db);
+}
+
  ?>
