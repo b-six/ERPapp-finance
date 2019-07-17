@@ -32,11 +32,11 @@
 
 		<!-- Dropdown Structure -->
 		<ul id='dropdown1' class='dropdown-content'>
-			<li><a href="#!">Buku Besar</a></li>
-			<li><a href="#!">Jurnal Umum</a></li>
-			<li><a href="#!">Laba Rugi</a></li>
-			<li><a href="#!">Neraca</a></li>
-			<li><a href="#!">Prive</a></li>
+			<li><a href="bukubesar.php">Buku Besar</a></li>
+			<li><a href="jurnalumum.php">Jurnal Umum</a></li>
+			<li><a href="labarugi.php">Laba Rugi</a></li>
+			<li><a href="neraca.php">Neraca</a></li>
+			
 		</ul>
 
 
