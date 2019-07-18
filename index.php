@@ -13,7 +13,7 @@
 	<title>Finance</title>
 </head>
 
-<body style="background-color: teal; color: white">
+<body>
 
 	<div class="navbar-fixed">
 		<nav class="no-shadow">
@@ -29,9 +29,12 @@
 		</nav>
 	</div>
 
+	<canvas id="myChart" width="400" height="400"></canvas>
+
 
 	<script src="C:\xampp\htdocs\Erpapp\application\views\finance\node_modules\materialize-css\dist\js\materialize.js">
 	</script>
+	<script src="js/index.js"></script>
 </body>
 
 </html>

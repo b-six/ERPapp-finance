@@ -12,7 +12,7 @@
 	<title>Finance</title>
 </head>
 
-<body style="background-color: teal;">
+<body>
 
 	<div class="navbar-fixed">
 		<nav class="no-shadow">
