@@ -30,12 +30,7 @@
 
 	<div class="container">
 		<div class="laporan-wrapper">
-			<p style="color: #ccc; font-size: 3rem">
-				laporanlaporanlaporanlaporanlaporanlaporan
-				laporanlaporanlaporanlaporanlaporanlaporan
-				laporanlaporanlaporanlaporanlaporanlaporan
-				laporanlaporanlaporanlaporan
-			</p>
+			<embed src="PDF/Contoh-Slip-Gaji-Karyawan-Swasta.pdf" width="850" height="600"> </embed>
 		</div>
 		<div class="">
 			<a href="lapporan-accepted.html" class="waves-effect waves-light laporan-btn btn right">Accept</a>

@@ -5,6 +5,7 @@ require 'db_bukubesar.php';
 
 $finance = query("SELECT * FROM transaksi");
 
+
 $mpdf = new \Mpdf\Mpdf();
 $html = '<!DOCTYPE html>
 <html>
@@ -22,7 +23,6 @@ $html = '<!DOCTYPE html>
 		<th>Debit</th>
 		<th>Kredit</th>
 	</tr>';
-$i = 1;
 foreach ($finance as $row){
 	$html .='<tr>
 	<td>'. $row["tgl_transaksi"] .'</td>
